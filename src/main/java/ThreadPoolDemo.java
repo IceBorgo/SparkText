@@ -1,4 +1,3 @@
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -26,6 +25,7 @@ public class ThreadPoolDemo {
             });
         }
 
+        System.out.println("all task is submitted");
         System.out.println("all task is submitted");
         pool.shutdown();
     }
