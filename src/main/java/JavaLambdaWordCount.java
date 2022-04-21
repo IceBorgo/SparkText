@@ -2,7 +2,6 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import scala.Tuple1;
 import scala.Tuple2;
 
 import java.util.Arrays;
@@ -36,7 +35,7 @@ public class JavaLambdaWordCount {
         //将结果保存到hdfs
         result.saveAsTextFile(args[1]);
 
-
+        System.out.println("test");
 
         jsc.close();
     }
