@@ -36,6 +36,8 @@ public class JavaLambdaWordCount {
         result.saveAsTextFile(args[1]);
 
         System.out.println("test");
+        System.out.println("test");
+
 
         jsc.close();
     }
